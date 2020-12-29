@@ -1,4 +1,6 @@
 <script lang="ts">
-  const message = "hello";
+  let counter = 0;
+  const onClick = () => ++counter
 </script>
-<div>{message}</div>
+
+<button on:click={onClick}>counter: {counter}</button>
