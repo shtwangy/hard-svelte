@@ -10,6 +10,8 @@
   const value = Math.random();
 
   const items = [0, 1, 2, 3];
+
+  import Greeting from "./components/Greeting.svelte";
 </script>
 
 <button on:click={onClick}>counter: {counter}</button>
@@ -22,3 +24,5 @@
 {#each items as item}
   <div>{item}</div>
 {/each}
+
+<Greeting name="John" />
