@@ -12,6 +12,7 @@
   const items = [0, 1, 2, 3];
 
   import Greeting from "./components/Greeting.svelte";
+  import StyleTest from "./components/StyleTest.svelte";
 </script>
 
 <button on:click={onClick}>counter: {counter}</button>
@@ -26,3 +27,4 @@
 {/each}
 
 <Greeting name="John" />
+<StyleTest />
