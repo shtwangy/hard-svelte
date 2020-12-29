@@ -6,7 +6,13 @@
   $: if (counter === 15) {
     alert(`fizzbuzz`);
     }
+
+  const value = Math.random();
 </script>
 
 <button on:click={onClick}>counter: {counter}</button>
 <span>double: {doubled}</span>
+
+<div>
+{#if value > 0.5}big{:else}small{/if}
+</div>
