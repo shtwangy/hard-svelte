@@ -8,6 +8,8 @@
     }
 
   const value = Math.random();
+
+  const items = [0, 1, 2, 3];
 </script>
 
 <button on:click={onClick}>counter: {counter}</button>
@@ -16,3 +18,7 @@
 <div>
 {#if value > 0.5}big{:else}small{/if}
 </div>
+
+{#each items as item}
+  <div>{item}</div>
+{/each}
