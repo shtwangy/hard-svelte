@@ -13,6 +13,7 @@
 
   import Greeting from "./components/Greeting.svelte";
   import StyleTest from "./components/StyleTest.svelte";
+  import CSSVariablesTest from "./components/CSSVariablesTest.svelte"
 </script>
 
 <button on:click={onClick}>counter: {counter}</button>
@@ -28,3 +29,4 @@
 
 <Greeting name="John" />
 <StyleTest />
+<CSSVariablesTest />
